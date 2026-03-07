@@ -1,8 +1,9 @@
-from abc import ABC,abstractclassmethod
+from abc import ABC,abstractmethod
 
 # Clase abstracta (plantilla)
 class Animal(ABC):
-    @abstractclassmethod
+    
+    @abstractmethod
     def hablar(self):
         pass # No se implementa el metodo
 
@@ -13,3 +14,10 @@ class Perro(Animal):
 class Gato(Animal):
     def hablar(self):
         print("Miau!")
+        # Crear instancias de las clases concretas
+perro = Perro() 
+gato = Gato()
+perro.hablar()  # Salida: Guau!
+gato.hablar()   # Salida: Miau!
+
+Animal = Animal() # Error: No se puede instanciar una clase abstracta   

@@ -1,4 +1,5 @@
-from .Aventurero import Aventurero
+from Ejercicio4 import Aventurero
+
 
 
 class Guerrero(Aventurero):
