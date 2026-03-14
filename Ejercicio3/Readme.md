@@ -1,4 +1,4 @@
-# Ejercicio 1: Simulación de Mascota Virtual 
+# Ejercicio 3: Simulación de Mascota Virtual 
 
 ## Introducción
 Este programa implementa una clase en Python para gestionar una mascota virtual. El objetivo es practicar la lógica de estados, donde las acciones del usuario (alimentar o jugar) afectan directamente el nivel de felicidad de la mascota.
